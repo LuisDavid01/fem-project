@@ -22,6 +22,6 @@ docker compose up --build
 ```bash
 go run main.go
 ```
-7. listo! 😁👌
+6. listo! 😁👌
 # Colaboradores
 - Luis David Miranda Villalta (main developer)
