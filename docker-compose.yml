@@ -1,0 +1,13 @@
+services:
+  db:
+    container_name: "workoutDB"
+    image: postgres:12.4-alpine
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./database/postgres-data:/var/lib/postgresql/data:rw"
+    restart: unless-stopped
