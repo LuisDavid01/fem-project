@@ -18,9 +18,10 @@ git clone https://github.com/LuisDavid01/fem-project
 ```bash
 docker compose up --build
 ```
-5. ```bash
-   go run main.go
-   ```
-6. listo! 😁👌
+5. Correr el projecto usando go run.
+```bash
+go run main.go
+```
+7. listo! 😁👌
 # Colaboradores
 - Luis David Miranda Villalta (main developer)
