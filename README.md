@@ -16,8 +16,11 @@ git clone https://github.com/LuisDavid01/fem-project
 ```
 4. Correr todos los contenedores con las bases de datos.
 ```bash
-docker compose up
+docker compose up --build
 ```
-5. listo! 😁👌
+5. ```bash
+   go run main.go
+   ```
+6. listo! 😁👌
 # Colaboradores
 - Luis David Miranda Villalta (main developer)
